@@ -9,7 +9,7 @@ public class Factorial {
         System.out.println("Enter a number: ");
         int num = sc.nextInt();
 
-        long fact = 1;   // using long to handle bigger numbers
+        long fact = 1;  
 
         if (num < 0) {
             System.out.println("Factorial is not defined for negative numbers.");
