@@ -9,7 +9,7 @@ public class PrimeNumber{
         System.out.print("Enter a number: ");
         int num = sc.nextInt();
 
-        int isPrime = 1;   // 1 = prime, 0 = not prime
+        int isPrime = 1;
 
         if (num <= 1) {
             isPrime = 0;
